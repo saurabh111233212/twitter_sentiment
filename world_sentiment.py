@@ -48,11 +48,14 @@ if __name__ == "__main__":
     print('\n')
     first_score = generate_average_sentiment_score(word1)
     second_score = generate_average_sentiment_score(word2)
-    preferred_word = "";
-    if (first_score > second_score) :
+    preferred_word = ""
+    if first_score > second_score:
         preferred_word = word1
         loser = word2
     else :
         preferred_word = word2
         loser = word1
-    print('Looks like people prefer ' + preferred_word + ' to ' + loser)
+
+    print("First score: " + str(first_score))
+    print("Second score: " + str(second_score))
+    print('Looks like twitter prefers ' + preferred_word + ' to ' + loser)
