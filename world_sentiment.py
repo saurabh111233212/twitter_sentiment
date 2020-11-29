@@ -4,8 +4,8 @@ import preprocessor as p
 import statistics
 from typing import List
 
-api_key = "JwqA8hwrCXN9rMWu4RNxDNydB"
-api_secret_key = "b00hrPqTjhggFmRDPRBeRculAKW3CJdFpEh6DU4ZdZQ59EcXI8"
+api_key = "dummy_key"
+api_secret_key = "dummy_secret"
 
 auth = tweepy.AppAuthHandler(api_key, api_secret_key)
 api = tweepy.API(auth)
